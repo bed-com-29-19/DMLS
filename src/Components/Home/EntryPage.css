@@ -32,3 +32,10 @@
 .reg > button:hover {
     color: rgb(23, 22, 22);
 }
+@media only screen and (max-width: 1200px) and (min-width:768) {
+    .entry-container>h1{
+        text-align: centered;
+        font-size: 59px;
+        font-weight: 800px;
+    }
+}

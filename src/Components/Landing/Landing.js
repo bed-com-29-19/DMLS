@@ -81,7 +81,7 @@ export default function Landing() {
           <button type="button">Coorpolate Loan</button>
         </div>
 
-        <small> Dmls capital startup loans and Dmls farmers onight loans are coming soon</small>
+        <small> Dmls capital startup loans and Dmls farmers all night loans are coming soon</small>
         
       </div>
     </div>

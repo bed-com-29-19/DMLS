@@ -1,5 +1,10 @@
 {
-    "cSpell.words": [
-        "signup"
-    ]
+    "zenMode.fullScreen": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideTabs": false,
+    "zenMode.restore": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.silentNotifications": false
 }

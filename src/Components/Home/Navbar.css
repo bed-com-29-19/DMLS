@@ -12,8 +12,12 @@
     align-items: center;
     cursor: pointer;
     margin-top: -1.90%;
+    /*
     margin-left: -0.01%;
-    margin-right: -48%;
+    margin-right: -48%; */
+    /* margin-top: auto; */
+    margin-left: auto;
+    margin-right: auto;
   }
   .nav-menu {
     list-style: none;
@@ -62,23 +66,21 @@
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      margin-top: 2%;
-      margin-left: -86%;
-      margin-right: -99%;
+      margin-top: auto;
       z-index:auto;
     }
   }
 
 
-  @media screen and (max-width: 480px) and (min-width : 318px ) {
+  @media screen and (max-width: 768px) and (min-width : 318px ) {
     .navbar-logo {
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      margin-top: -2%;
+      margin-top: auto;
       margin-left: -76%;
       margin-right: -78%;
-      z-index:auto;
+      z-index:999;
     }
   }
     

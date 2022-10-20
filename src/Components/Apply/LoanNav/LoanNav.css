@@ -33,4 +33,5 @@ nav {
 
 .navli > li:hover {
     color:rgba(0, 0, 0, 0.763);
+    cursor: pointer;
 }

@@ -66,8 +66,12 @@ img {
   box-shadow: 10px 2px 8px 2px rgb(65, 64, 62);
 
 }
-
-@media only screen and (max-width: 1200px) {}
+/*large devices*/
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 85%;
+  }
+}
 
 /* medium devices*/
 @media screen and (max-width: 1024px) {
@@ -76,16 +80,6 @@ img {
   }
 
 }
-
-/* medium devices*/
-@media screen and (max-width:960) {}
-
-/* medium devices*/
-@media screen and (max-width:820) {}
-
-/* small devices*/
-@media screen and (max-width:768) {}
-
 /* small devices*/
 @media screen and (max-width: 480px) {
   body {
@@ -95,12 +89,7 @@ img {
   p {
     font-size: .8em;
   }
-  
 }
-
-/*very small devices */
-@media screen and (max-width:425) {}
-
 /*very small devices */
 @media screen and (max-width : 318px ) {
 
