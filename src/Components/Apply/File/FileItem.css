@@ -1,0 +1,28 @@
+.listed-item {
+    width : fit-content;
+    background-color: rgb(227, 163, 0);
+    list-style-type: none;
+    margin-top: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display : flex;
+    align-items: center;
+    padding: .8em 1.5em;
+    font-weight: bold;
+}
+
+
+.listed-item > p {
+    flex : 1;
+    margin-right: 4rem;
+}
+
+.actions {
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+.fa-spin {
+    font-size: 1.2em;
+}

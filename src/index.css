@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* for smooth scrolling*/
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* no scroll bar*/
+  background-color: aqua;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  line-height: 1.7;
+  width: 100%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  color: rgba(0, 0, 0, 0.812);
+}
+
+img {
+  width: 18%;
+  display: block;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0rem;
+}
+
+.address-buttons>button {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  width: 15%;
+  background-color: rgb(227, 163, 0);
+  font-size: 20px;
+  font-weight: bold;
+  padding: .4rem;
+  color: rgba(255, 255, 255, 0.935);
+  border-radius: 1rem;
+  margin-left: 6rem;
+  box-shadow: 10px 2px 8px 2px rgb(65, 64, 62);
+
+}
+
+@media only screen and (max-width: 1200px) {}
+
+/* medium devices*/
+@media screen and (max-width: 1024px) {
+  body {
+    width: 85%;
+  }
+
+}
+
+/* medium devices*/
+@media screen and (max-width:960) {}
+
+/* medium devices*/
+@media screen and (max-width:820) {}
+
+/* small devices*/
+@media screen and (max-width:768) {}
+
+/* small devices*/
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+  }
+
+  p {
+    font-size: .8em;
+  }
+  
+}
+
+/*very small devices */
+@media screen and (max-width:425) {}
+
+/*very small devices */
+@media screen and (max-width : 318px ) {
+
+  body {
+    width: 120%;
+  }
+
+  p {
+    font-size: .8rem;
+  }
+}

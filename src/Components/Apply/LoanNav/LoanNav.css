@@ -1,0 +1,36 @@
+nav {
+    background-color: rgb(227, 163, 0);
+    display:block;
+    
+}
+
+.navli {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.navli > li {
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:aliceblue;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.list-item {
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:aliceblue;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navli > li:hover {
+    color:rgba(0, 0, 0, 0.763);
+}

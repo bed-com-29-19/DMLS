@@ -1,0 +1,112 @@
+.uploader {
+    margin-top: .2rem;
+    margin-bottom: 6rem;
+    display: block;
+    /* margin-left: 4rem; */
+}
+
+.h4 {
+    color: rgb(14, 149, 158);
+}
+
+.downloader > a > button {
+    width: 30%;
+    color: black;
+    display : block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(227, 163, 0);
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.downloader > a {
+    width: 30%;
+}
+
+.downloader > a > button:hover {
+    color: white;
+}
+
+.file-card {
+    background-color: rgba(240, 238, 234, 0.652);
+    border: .2rem dashed rgb(227, 163, 0);
+    border-radius: 2rem;
+    padding: 1em;
+    max-width: 3rem;
+    min-width: 380px;
+    min-height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file-inputs {
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.inp {
+    position: relative;
+    max-width: 200px;
+    height: 46px;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0 ;
+}
+
+.file-inputs > button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width : 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color :rgb(23, 22, 22);
+    background-color: rgb(227, 163, 0);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: .5rem;
+    outline: none;
+
+    transition: background-color 0.4s;
+    box-shadow: 0px 8px 24px rgb(65, 64, 62);
+}
+
+.icn {
+    color:  rgb(39, 38, 36);
+    margin-right: 5px;
+}
+
+i {
+   /* width : 1.5em;
+   height: 1.5em;
+   padding : 0.4em; */
+   background-color:  rgb(227, 163, 0);
+   color: rgb(23, 22, 22);
+   border-radius: 58%;
+   display : flex;
+   justify-content: center;
+    align-items: center;
+    /* margin-right: 0.8em; */
+    /* font-size: 0.8em; */
+}
+
+.main, .info {
+    font-weight: bolder;
+}

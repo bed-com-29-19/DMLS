@@ -1,0 +1,124 @@
+.content-on-page {
+    width: 80%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.812);
+    text-transform: capitalize;
+    text-align: center; 
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.812);
+}
+
+.articles {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article > h2 {
+    border-bottom: .5rem dotted white;
+    margin-bottom: 1rem;   
+}
+
+.about-us {
+    margin-bottom: 2rem;
+    border-bottom: .3rem dashed rgb(227, 163, 0);
+    padding-bottom: 1rem;
+}
+
+.about-us > p {
+    font-weight: bold;
+}
+
+.landing-page > h1 {
+    color: rgb(227, 163, 0);
+}
+
+small {
+    margin-top: 1rem;
+    display:block;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.mission-statement {
+    width : 80%;
+    background-color: rgb(227, 163, 0);
+    padding: .5rem;
+    height: fit-content;
+    border-radius:2rem;
+}
+
+
+.goals {
+    width : 80%;
+    background-color: rgb(227, 163, 0);
+    padding: .5rem;
+    height: fit-content;
+    border-radius:2rem;
+}
+
+.services {
+    width: 100%;
+    background-color: rgb(227, 163, 0);
+    padding: .5rem;
+    height: fit-content;
+    border-radius:2rem;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.macro {
+    margin-top: 2rem;
+    border-top: .3rem dotted rgb(227, 163, 0);
+    padding-top: 1rem;
+
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    margin-left: 1.5rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+button {
+    width: 20%;
+    margin-top: .5rem;
+    background-color:rgb(227, 163, 0);
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.842);
+    border-radius: 20px;
+}
+
+button:hover {
+    color: rgb(23, 22, 22);
+    transition-duration: 1.2s;;
+}
