@@ -1,6 +1,16 @@
+/* reviewed by Simpsoft inc*/
+
 .main-container {
     background-color: rgb(227, 163, 0);
-    display : block;
+    display: block;
+}
+.header{
+    color: #fff;
+    font-weight: 900px;
+    margin-top: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .content {
     width: 90%;
@@ -27,10 +37,11 @@
 }
 .signup {
     display: block;
-    background-color: white;
+    background-color: rgb(255, 254, 254);
     border:.18rem smooth rgb(23, 22, 22);
     border-radius: 1rem;
-    width: 80%;
+    width: 900px;
+    margin-top: -120px;
     margin-left: auto;
     margin-right: auto;
     padding : 3rem .1rem 3rem .1rem;
@@ -46,7 +57,6 @@
 }
 
 .middle {
-    background-color: white;
     width: 90%;
     margin-left: 1rem;
     margin-right: auto;
@@ -54,7 +64,7 @@
 }
 
 .middle > input {
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     border: .2rem solid rgb(227, 163, 0);
     border-radius: .7rem;
     width : 90%;
@@ -65,7 +75,7 @@
 }
 
 .first2 >.cover > input {
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     border: .2rem solid rgb(227, 163, 0);
     border-radius: .7rem;
     width : 80%;
@@ -100,7 +110,7 @@ j {
 }
 
 .content > small {
-    display: block;
+    display: box;
     margin-top: 1rem;
     justify-content: center;
     text-align:center;
@@ -108,7 +118,53 @@ j {
     margin-left:auto;
     margin-right: auto;
 }
-
+.content>small>span{
+    font-size: 30px;
+    flex-direction: row;
+}
 span:hover {
     color: rgb(23, 22, 22)
+}
+.header{
+    text-align: center;
+    font-weight: 600px;
+}
+@media only screen and (max-width: 1200px) and (min-width:768) {
+    .signup{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px) and (min-width : 318px ) {
+.signup{
+    width: 400px;
+    margin-top: -140px;
+    margin-left: -140px;
+}
+.first2 {
+    margin-left: -2rem;
+    gap: 0rem;
+    margin-right: 1rem;
+    
+}
+.middle{
+    margin-left: -1rem;
+    margin-right: 1rem;
+}
+.create {
+width: 600px;
+justify-content: center;
+align-items: center;
+margin-left: 9rem;
+margin-top: 1rem;
+}
+.header{
+    text-align: center;
+    font-weight: 600px;
+}
+.first2 >.cover > input {
+    font-size:.8rem;
+}
+.middle>input{
+    font-size: .8rem;
+} 
 }

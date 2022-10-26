@@ -2,7 +2,6 @@ import React, { useState }from 'react';
 import Permanent from "./Permanent";
 import "./Address.css"
 import LoanNav from "../LoanNav/LoanNav";
-// import Logo from "../../images/logo.jpg";
 
 function Address() {
     const [userAddressId,setUserAddressId] = useState("");
@@ -62,7 +61,6 @@ function Address() {
   return (
     <main>
     <LoanNav/>
-    {/* <img alt="logo" src={Logo}></img> */}
         <div className="address-container">
             <div className="current-address-container">
                 <h2>CURRENT ADDRESS DETAILS</h2>

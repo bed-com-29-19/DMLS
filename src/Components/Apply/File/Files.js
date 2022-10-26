@@ -1,12 +1,11 @@
 import React, { useState }from 'react';
 import "./Files.css"
 import {BsFillFileEarmarkPlusFill} from "react-icons/bs";
-import file from "../../../Components/simple.pdf";
+import file from "../../Assets/min_form.pdf"
 import FileList from "./FileList";
 import axios from 'axios';
 
 import LoanNav from "../LoanNav/LoanNav";
-// import Logo from "../../images/logo.jpg";
 
 const Files = ({files, setFiles, removeFile}) => {
   const [msg, setMsg] = useState(false);

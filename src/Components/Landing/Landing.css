@@ -122,3 +122,6 @@ button:hover {
     color: rgb(23, 22, 22);
     transition-duration: 1.2s;;
 }
+@media screen and (max-width: 768px) and (min-width : 318px ) {
+    
+}

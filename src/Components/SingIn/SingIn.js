@@ -97,6 +97,7 @@ export default function SingIn({authenticate}) {
 
   return (
     <div className="main-container">
+    <div className="header">LOG INTO LOAN ACCOUNT</div>
         <div className="content"> 
             <form className="signin" onSubmit={handleSubmit}>             
 
@@ -119,11 +120,13 @@ export default function SingIn({authenticate}) {
                 </div>
 
                 <div className="created">
-                    <button>Sing In</button>
+                    <button>Log in</button>
                 </div>
             </form>
 
-            <small>You do not have an account? <span onClick={() => {navigate("/SignUp")}}>sing up</span></small>
+            <small>Don't have an account? 
+            <span onClick={() => {navigate("/SignUp")}}>sign up</span>
+            </small>
         </div>
     </div>
   )

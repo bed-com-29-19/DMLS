@@ -39,13 +39,6 @@ function App() {
     <div className="App">
       <Router>
       <Navbar/>
-      {/* <Landing/> */}
-      {/* <LoanNav /> */}
-      {/* <ApplyHome/> */}
-      {/* <Applicant/> */}
-      {/* <Address/> */}
-      {/* <Form/> */}
-      {/* <Loan/> */}
         <Routes>
          <Route path="/" element={<EntryPage/>} />
           {!user && (<Route path="/SingIn" element={<SingIn authenticate={() => setUser(true)} />} />)}

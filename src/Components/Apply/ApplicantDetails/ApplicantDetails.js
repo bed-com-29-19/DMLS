@@ -1,7 +1,6 @@
 import React, { useState }from 'react';
 import "./AppllicantDetails.css";
 import LoanNav from "../LoanNav/LoanNav";
-// import Logo from "../../images/logo.jpg";
 
 
 function ApplicantDetails() {
@@ -75,7 +74,6 @@ function ApplicantDetails() {
     <main id="personal">
     <LoanNav/>
 
-    {/* <img alt="logo" src={Logo}></img> */}
         <div className="applicant-details-container">
         
         <div className="form-container">

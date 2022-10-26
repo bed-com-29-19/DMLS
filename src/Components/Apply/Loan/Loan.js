@@ -1,7 +1,6 @@
 import React, { useState} from 'react';
 import "./Loan.css";
 import LoanNav from "../LoanNav/LoanNav";
-// import Logo from "../../images/logo.jpg";
 
 
 function Loan() {
@@ -95,7 +94,6 @@ function Loan() {
     <main id="loan">
     <LoanNav/>
 
-    {/* <img alt="logo" src={Logo}></img> */}
         <div className="loan-container">
 
         <h2>LOAN DETAILS</h2>

@@ -1,7 +1,6 @@
 import React from 'react';
 import "./ApplyHome.css";
 import LoanNav from "../LoanNav/LoanNav";
-// import Logo from "../../images/logo.jpg";
 
 
 function ApplyHome() {
@@ -9,7 +8,6 @@ function ApplyHome() {
     <main id='ApplyHome'>
     <LoanNav/>
 
-    {/* <img alt="logo" src={Logo}></img> */}
     <div className="apply-home">
 
         <h1>DMLS MICRO AND MACRO LOANS</h1>

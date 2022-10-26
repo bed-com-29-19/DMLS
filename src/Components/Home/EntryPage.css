@@ -1,7 +1,7 @@
 .entry-container>h1{
     text-align: centered;
-    /* font-size: 59px; */
-    font-weight: 400px;
+    font-size: 59px;
+    font-weight: 500px;
 }
 
 .p {
@@ -37,5 +37,24 @@
         text-align: centered;
         font-size: 59px;
         font-weight: 800px;
+        justify-content: center;
+    }
+    .registration >.reg{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
+  @media screen and (max-width: 768px) and (min-width : 318px ) {
+    .entry-container>h1{
+        text-align: centered;
+        font-size: 49px;
+        font-weight: 600px;
+        justify-content: center;
+    }
+    .registration >.reg{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  }
